@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 75%;
+    margin: 5px auto;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-rows: 80px 40px 200px 30px 550px 450px 30px;
+    grid-template-columns:repeat(3,10fr) 150px;
+    row-gap: 5px;column-gap: 5px;
+}
+.div1{ background-color: #ffb300;
+    grid-column:1/-1 ;
+}
+.div0{
+    background-color: rgb(56, 57, 56);
+    grid-column:1/4;
+    text-align: center;
+
+}
+.div0 ul{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.div0 ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+}  
+.div0 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .div0 ul li :hover{
+    background-color: blueviolet;
+    border-radius: 3px;
+}
+.anim{
+    background-color: #ffff00;
+    grid-column:1/4;
+}
+
+.div1 h1{
+    text-align: center;
+     margin-top: 15px;
+     font-size: 5ch;
+     margin-right: 8%;   
+}
+.div1 img{
+    float: left;
+    width: 7%;
+    margin-left: 1%;
+    
+}
+.div2{ background-color: rgb(255, 190, 160);
+
+}
+.div2 ul{
+    margin:20px;
+}
+.div3{ background-color: rgb(170, 255, 249);
+}
+.div4{ background-color: rgb(193, 205, 255);}
+.div5{ background-color: rgb(61, 61, 61);
+grid-row:2/6 ;grid-column: 4/5;
+}
+.div6{background-color: rgb(255, 252, 205);
+grid-column: 1/4;
+}
+
+.div7{ background-color: rgb(210, 168, 255);
+    grid-column:1/-1 ;
+}
+.div8{ background-color: #ffb300;
+    grid-column:1/-1 ;
+    text-align: center;
+    padding-top: 5Px;
+}
+.div2 h2{
+    text-align: center; background-color: yellow;
+}
+.div3 h2{
+    text-align: center; background-color: yellow;
+}
+.div4 h2{
+    text-align: center; background-color: yellow;
+}
+
+table{
+    text-align: justify;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-spacing: 2em .1em;
+}
+.div2 ul{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.div3 ul{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.div1 img{
+    padding-top: 10px;
+}
+.div5{
+    text-align:left;
+}
+.div5 h3{
+    text-align: center;
+    background-color: rgb(46, 60, 255);
+    color: white;
+    padding: 3%;
+}
+.div5 ul{
+    margin-left: 9%;
+}
+
+.div5 ul li{
+    padding: 5%;
+    color: aliceblue;
+    list-style-type: "\261B";
+}
+.div5 ul li a{
+    color: white;
+    /* text-decoration: none; */
+}
+.div6 img{
+    border: 5px solid rgb(0, 251, 255);
+ margin: 10px;
+ padding-left:0px ;
+ padding-right: 0px;
+}
+.div7 form{
+    font-size: medium;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+.div7 input{
+    
+    padding: 5px;
+}
+.div7 select{
+    
+    padding: 5px;
+}
+.div7 h2{
+    text-align: justify; background-color: #ffff00;
+    padding-left: 45%;
+    
+}
+.div7 img{
+    float: left;
+    margin-left: 25%;
+}
